@@ -1,8 +1,12 @@
 package main
 
 import (
+	"fmt"
+	"io/fs"
 	"log"
 	"os"
+	"path/filepath"
+	"strings"
 
 	"github.com/flocknroll/azga/go_installer/msfstools"
 	"github.com/rivo/tview"
@@ -12,6 +16,26 @@ import (
 func main() {
 	path, ok := msfstools.GetPackageFolderPath()
 	log.Print(path, ok)
+
+	bushtrips := make([]string, 20)
+	aircrafts := make([]string, 20)
+
+	filepath.WalkDir("test_data", func(path string, d fs.DirEntry, err error) error {
+		if err != nil {
+			return err
+		}
+
+		if strings.HasSuffix(path, ".FLT") {
+			bushtrips = append(bushtrips, path)
+		}
+		if strings.HasSuffix(path, "aircraft.cfg") {
+			aircrafts = append(aircrafts, path)
+		}
+
+		return nil
+	})
+
+	fmt.Println(bushtrips, aircrafts)
 
 	cfg, _ := ini.Load("test_data/test.cfg")
 
