@@ -1,0 +1,726 @@
+
+[Main]
+MissionType=BushTrip
+MissionLocation=TT:Patagonia.Mission.102
+Title=TT:Patagonia.Mission.1
+Description=TT:Patagonia.Mission.371
+AppVersion=10.0.282174
+FlightVersion=1
+
+[Briefing]
+BriefingText=TT:Patagonia.Mission.192
+BriefingImage0="./Images/SAWL - Tolhuin Lago Fagnano Airport.jpg"
+BriefingImage1="./Images/SAWO - Ushuaia Aeroclub.jpg"
+BriefingImage2="./Images/SCNY - Yendagaia Airport.jpg"
+BriefingImage3="./Images/SCAZ - Azopardo Airport.jpg"
+BriefingImage4="./Images/SCDW - Almirante-Schroeders-Airport.jpg"
+BriefingImage5="./Images/SCID - Marco Davison Bascur Airport.jpg"
+BriefingImage6="./Images/SCNT - Puerto Natales Airport.jpg"
+BriefingImage7="./Images/SAWC - El Calafate Airport.jpg"
+BriefingImage8="./Images/SCDV - Lago Viedma Airstrip.jpg"
+BriefingImage9="./Images/SCIO - Laguna Redonda Airport.jpg"
+BriefingImage10="./Images/SCOH - O'Higgins Airport.jpg"
+BriefingImage11="./Images/SCEY - Aerodromo Entrada Mayer.jpg"
+BriefingImage12="./Images/SCBR - Lago Brown Airstrip.jpg"
+BriefingImage13="./Images/SCHR - Cochrane Airport.jpg"
+
+[Options]
+Sound=True
+Pause=True
+Moonlight=True
+Save=True
+TextDisplayPage=0
+SlewDisplayPage=1
+AxisIndicator=Off
+Titles=False
+SaveOriginalFlightPlan=True
+
+[Sim.0]
+Sim=Asobo XCub
+SimFile=runway.FLT
+Pilot=Default
+Copilot=Default
+
+[ResourcePath]
+Path=Chile
+
+[ObjectFile]
+File=Chile
+
+[Atc_Menu]
+Visible=False
+
+[Weather]
+UseWeatherFile=True
+
+[Assistance]
+Preset=ASSISTANCE_PRESET_BUSH_TRIP
+EventTriggersFileCount=1
+EventTriggersFile.0=BushTripEventTriggers
+
+[Departure]
+ICAO=Z00T
+RunwayNumber=10
+RunwayDesignator=NONE
+
+[Loading]
+ImageName=./images/Loading_Screen.jpg
+Tips0=TT:LOADING.TIPS.BUSH_TRIPS.1
+Tips1=TT:LOADING.TIPS.BUSH_TRIPS.2
+Tips2=TT:LOADING.TIPS.BUSH_TRIPS.3
+Tips3=TT:LOADING.TIPS.BUSH_TRIPS.4
+Tips4=TT:LOADING.TIPS.BUSH_TRIPS.5
+
+[Panels]
+Panel.On=True
+HUD.On=False
+
+[Window.1]
+Order=255
+Active=True
+Undocked=False
+Maximized=True
+ScreenUniCoords=0, 0, 8192, 4000
+UndocCoords=0, 0, 0, 0
+CurrentCamera={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+
+[Camera.1.1]
+Guid={B1386D92-4782-4682-A137-738E25D1BAB5}
+Zoom=1
+Translation=0, 0, 0
+Rotation=8, 0, 0
+
+[Camera.1.2]
+Guid={C95EAB58-9E4A-4E2A-A34C-D8D9D948F078}
+Zoom=0.69999998807907104492
+Translation=0, 0, 0
+Rotation=8, 0, 0
+
+[Camera.1.3]
+Guid={195EAB58-9E4A-1E2A-A34C-A8D9D948F078}
+Zoom=0.58999997377395629883
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.4]
+Guid={A1FF1FC6-4902-46D4-AFFD-22F64B240235}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.5]
+Guid={E9FF00BD-8D7B-4934-8855-364A432149A6}
+Zoom=0.31000000238418579102
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.6]
+Guid={64D6C8BC-406A-4B73-8441-7393A4A335B4}
+Zoom=0.31000000238418579102
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.7]
+Guid={A31C5FA5-4508-4C1A-84A7-6F46C68FBB4A}
+Zoom=0.31000000238418579102
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.8]
+Guid={3707B27E-DC9F-44A3-8E82-422191F16B72}
+Zoom=0.33000001311302185059
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.9]
+Guid={7B23189D-3554-4F63-99E2-F56DC287BD76}
+Zoom=0.33000001311302185059
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.10]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00C}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=90
+ChaseDistance=28.041599273681640625
+ChaseAltitude=0.91439998149871826172
+
+[Camera.1.11]
+Guid={BCA3FDD1-FB83-4BBA-8407-4922A7F0D00D}
+Zoom=1
+Translation=0, 0, 0
+ChaseDirection=-135
+ChaseDistance=37.5
+ChaseAltitude=0.80000001192092895508
+
+[Camera.1.12]
+Guid={6B79DD49-9B4A-439D-BF40-ACBF157B0BA0}
+Zoom=10
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.13]
+Guid={A2849229-938A-448F-8AC6-01EF2291C171}
+Zoom=80.3000030517578125
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.14]
+Guid={60BC0819-BD04-4AF6-8954-8FC8AA3545FF}
+Zoom=8
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.15]
+Guid={C690EAFD-223A-42D0-99E0-681ADF93BB59}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.16]
+Guid={3A09FD6C-D406-4D8F-A5CD-FA4F5E0C12ED}
+Zoom=1
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.17]
+Guid={D8D67955-2E9B-4E75-9D8B-8EFFBBFAC64A}
+Zoom=0.75
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.18]
+Guid={41F9C308-7FFA-4BE1-8CC1-43336D945791}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.19]
+Guid={4B06E947-0AC1-465C-B1C7-D7548A5FACE9}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.20]
+Guid={C46C9BC7-ABD4-401C-A273-087BAAA0922A}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.21]
+Guid={1C03E395-7B86-4F79-8684-E3154A9EDDA6}
+Zoom=1.2999999523162841797
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.22]
+Guid={14AA6A13-7FCC-4F0F-9137-ABEF10DFCBB9}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.23]
+Guid={EBABF59F-3730-4F2E-A245-74901E9F8ED6}
+Zoom=0.40000000596046447754
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.24]
+Guid={08E673AF-9D5D-449A-86CB-84A55649A650}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.25]
+Guid={182C26E7-0D2D-4995-B776-53A96D125521}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[Camera.1.26]
+Guid={A32BC57C-6208-4FA7-98D0-09F3425F5F0E}
+Zoom=0.56999999284744262695
+Translation=0, 0, 0
+Rotation=0, 0, 0
+
+[ATC_AgentManager]
+NumberofAgents=0
+
+[ATC_Aircraft.0]
+ActiveFlightPlan=True
+RequestedFlightPlan=False
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+Waypoint.0=, Z00T, , TT:Patagonia.Mission.197, A, S54°20'27.05",W67°50'42.76",+000000.00, 
+Waypoint.1=!A, POI1, , TT:Patagonia.Mission.201, U, S54° 29' 57.32",W67° 45' 25.98",+000000.00, 
+Waypoint.2=!A, POI2, , TT:Patagonia.Mission.202, U, S54° 31' 49.78",W67° 38' 14.63",+000000.00, 
+Waypoint.3=!A, POI3, , TT:Patagonia.Mission.203, U, S54° 31' 37.54",W67° 17' 36.31",+000000.00, 
+Waypoint.4=, SAWL, , TT:Patagonia.Mission.204, A, S54° 29' 58.50",W67° 10' 20.21",+000000.00, 
+Waypoint.5=!B, POI1, , TT:Patagonia.Mission.205, U, S54° 33' 45.38",W67° 14' 57.69",+000000.00, 
+Waypoint.6=!B, POI2, , TT:Patagonia.Mission.207, U, S54° 36' 31.73",W67° 24' 29.94",+000000.00, 
+Waypoint.7=!B, POI3, , TT:Patagonia.Mission.208, U, S54° 37' 6.49",W67° 32' 29.55",+000000.00, 
+Waypoint.8=!B, POI4, , TT:Patagonia.Mission.210, U, S54° 38' 8.33",W67° 45' 19.58",+000000.00, 
+Waypoint.9=!B, POI5, , TT:Patagonia.Mission.212, U, S54° 45' 3.53",W67° 48' 38.11",+000000.00, 
+Waypoint.10=!B, POI6, , TT:Patagonia.Mission.213, U, S54° 43' 55.94",W67° 56' 18.46",+000000.00, 
+Waypoint.11=!B, POI7, , TT:Patagonia.Mission.214, U, S54° 43' 0.80",W68° 5' 1.85",+000000.00, 
+Waypoint.12=!B, POI8, , TT:Patagonia.Mission.215, U, S54° 45' 1.52",W68° 11' 57.68",+000000.00, 
+Waypoint.13=, SAWO, , TT:Patagonia.Mission.217, A, S54° 49' 22.20",W68° 18' 15.50",+000000.00, 
+Waypoint.14=!C, POI1, , TT:Patagonia.Mission.218, U, S54° 51' 55.24",W68° 28' 51.67",+000000.00, 
+Waypoint.15=!C, POI2, , TT:Patagonia.Mission.219, U, S54° 53' 46.74",W68° 39' 29.75",+000000.00, 
+Waypoint.16=, SCNY, , TT:Patagonia.Mission.220, A, S54° 49' 50.00",W68° 50' 7.01",+000000.00, 
+Waypoint.17=!D, POI1, , TT:Patagonia.Mission.222, U, S54° 43' 53.26",W68° 50' 27.45",+000000.00, 
+Waypoint.18=!D, POI2, , TT:Patagonia.Mission.223, U, S54° 44' 27.59",W68° 43' 7.75",+000000.00, 
+Waypoint.19=!D, POI3, , TT:Patagonia.Mission.224, U, S54° 39' 18.60",W68° 40' 53.25",+000000.00, 
+Waypoint.20=!D, POI4, , TT:Patagonia.Mission.225, U, S54° 34' 57.48",W68° 34' 49.63",+000000.00, 
+Waypoint.21=!D, POI5, , TT:Patagonia.Mission.226, U, S54° 30' 21.90",W68° 48' 41.73",+000000.00, 
+Waypoint.22=, SCAZ, , TT:Patagonia.Mission.227, A, S54° 28' 53.00",W68° 56' 25.00",+000000.00, 
+Waypoint.23=!E, POI1, , TT:Patagonia.Mission.228, U, S54° 26' 49.69",W69° 12' 51.32",+000000.00, 
+Waypoint.24=!E, POI2, , TT:Patagonia.Mission.229, U, S54° 20' 23.09",W69° 32' 49.05",+000000.00, 
+Waypoint.25=!E, POI3, , TT:Patagonia.Mission.230, U, S54° 19' 38.00",W69° 41' 45.16",+000000.00, 
+Waypoint.26=!E, POI4, , TT:Patagonia.Mission.231, U, S54° 17' 15.54",W69° 50' 47.03",+000000.00, 
+Waypoint.27=!E, POI5, , TT:Patagonia.Mission.233, U, S54° 15' 12.58",W70° 4' 16.20",+000000.00, 
+Waypoint.28=!E, POI6, , TT:Patagonia.Mission.234, U, S54° 14' 35.02",W70° 12' 57.31",+000000.00, 
+Waypoint.29=!E, POI7, , TT:Patagonia.Mission.236, U, S54° 8' 38.17",W70° 18' 32.39",+000000.00, 
+Waypoint.30=!E, POI8, , TT:Patagonia.Mission.238, U, S54° 1' 2.10",W70° 20' 11.11",+000000.00, 
+Waypoint.31=!E, POI9, , TT:Patagonia.Mission.239, U, S53° 52' 41.29",W70° 26' 39.88",+000000.00, 
+Waypoint.32=!E, POI10, , TT:Patagonia.Mission.240, U, S53° 47' 47.65",W70° 26' 59.25",+000000.00, 
+Waypoint.33=!E, POI11, , TT:Patagonia.Mission.241, U, S53° 40' 37.23",W70° 28' 49.33",+000000.00, 
+Waypoint.34=, SCDW, , TT:Patagonia.Mission.242, A, S53° 36' 32.06",W70° 28' 22.41",+000000.00, 
+Waypoint.35=!F, POI1, , TT:Patagonia.Mission.244, U, S53° 39' 45.87",W70° 36' 57.23",+000000.00, 
+Waypoint.36=!F, POI2, , TT:Patagonia.Mission.245, U, S53° 41' 29.56",W70° 42' 27.95",+000000.00, 
+Waypoint.37=!F, POI3, , TT:Patagonia.Mission.246, U, S53° 37' 59.36",W70° 54' 46.78",+000000.00, 
+Waypoint.38=!F, POI4, , TT:Patagonia.Mission.247, U, S53° 30' 51.94",W70° 57' 4.60",+000000.00, 
+Waypoint.39=!F, POI5, , TT:Patagonia.Mission.249, U, S53° 24' 9.96",W70° 59' 29.27",+000000.00, 
+Waypoint.40=!F, POI6, , TT:Patagonia.Mission.251, U, S53° 16' 20.27",W70° 56' 42.25",+000000.00, 
+Waypoint.41=!F, POI7, , TT:Patagonia.Mission.252, U, S53° 11' 23.60",W70° 55' 51.90",+000000.00, 
+Waypoint.42=!F, POI8, , TT:Patagonia.Mission.253, U, S53° 7' 29.12",W70° 52' 10.66",+000000.00, 
+Waypoint.43=!F, POI9, , TT:Patagonia.Mission.254, U, S53° 2' 48.61",W70° 51' 3.46",+000000.00, 
+Waypoint.44=!F, POI10, , TT:Patagonia.Mission.255, U, S52° 57' 24.65",W70° 49' 11.31",+000000.00, 
+Waypoint.45=, SCID, , TT:Patagonia.Mission.256, A, S52° 52' 50.00",W70° 45' 0.00",+000000.00, 
+Waypoint.46=!G, POI1, , TT:Patagonia.Mission.258, U, S52° 46' 55.07",W70° 44' 14.08",+000000.00, 
+Waypoint.47=!G, POI2, , TT:Patagonia.Mission.260, U, S52° 43' 49.54",W70° 53' 53.94",+000000.00, 
+Waypoint.48=!G, POI3, , TT:Patagonia.Mission.261, U, S52° 45' 1.91",W71° 0' 8.40",+000000.00, 
+Waypoint.49=!G, POI4, , TT:Patagonia.Mission.262, U, S52° 44' 5.69",W71° 7' 38.24",+000000.00, 
+Waypoint.50=!G, POI5, , TT:Patagonia.Mission.264, U, S52° 46' 40.02",W71° 16' 39.62",+000000.00, 
+Waypoint.51=!G, POI6, , TT:Patagonia.Mission.265, U, S52° 39' 3.15",W71° 27' 47.75",+000000.00, 
+Waypoint.52=!G, POI7, , TT:Patagonia.Mission.266, U, S52° 41' 16.08",W71° 38' 16.06",+000000.00, 
+Waypoint.53=!G, POI8, , TT:Patagonia.Mission.267, U, S52° 41' 56.02",W71° 45' 28.62",+000000.00, 
+Waypoint.54=!G, POI9, , TT:Patagonia.Mission.269, U, S52° 39' 31.45",W71° 58' 26.64",+000000.00, 
+Waypoint.55=!G, POI10, , TT:Patagonia.Mission.271, U, S52° 46' 2.11",W72° 21' 5.16",+000000.00, 
+Waypoint.56=!G, POI11, , TT:Patagonia.Mission.272, U, S52° 47' 22.11",W72° 27' 49.78",+000000.00,
+Waypoint.57=!G, POI12, , TT:Patagonia.Mission.273, U, S52° 45' 2.46",W72° 37' 39.94",+000000.00, 
+Waypoint.58=!G, POI13, , TT:Patagonia.Mission.274, U, S52° 40' 55.21",W72° 40' 34.57",+000000.00, 
+Waypoint.59=!G, POI14, , TT:Patagonia.Mission.275, U, S52° 36' 43.99",W72° 48' 56.37",+000000.00, 
+Waypoint.60=!G, POI15, , TT:Patagonia.Mission.277, U, S52° 29' 2.14",W72° 52' 22.61",+000000.00, 
+Waypoint.61=!G, POI16, , TT:Patagonia.Mission.278, U, S52° 26' 3.29",W72° 44' 6.77",+000000.00, 
+Waypoint.62=!G, POI17, , TT:Patagonia.Mission.279, U, S52° 23' 53.66",W72° 47' 18.02",+000000.00, 
+Waypoint.63=!G, POI18, , TT:Patagonia.Mission.280, U, S52° 17' 42.91",W72° 54' 20.39",+000000.00, 
+Waypoint.64=!G, POI19, , TT:Patagonia.Mission.282, U, S52° 6' 20.76",W72° 49' 2.91",+000000.00, 
+Waypoint.65=!G, POI20, , TT:Patagonia.Mission.284, U, S52° 2' 30.87",W72° 39' 51.97",+000000.00, 
+Waypoint.66=!G, POI21, , TT:Patagonia.Mission.285, U, S51° 54' 37.84",W72° 37' 29.67",+000000.00, 
+Waypoint.67=!G, POI22, , TT:Patagonia.Mission.286, U, S51° 54' 24.45",W72° 27' 12.16",+000000.00, 
+Waypoint.68=!G, POI23, , TT:Patagonia.Mission.287, U, S51° 44' 38.73",W72° 29' 25.17",+000000.00, 
+Waypoint.69=, SCNT, , TT:Patagonia.Mission.288, A, S51° 40' 14.20",W72° 31' 43.96",+000000.00, 
+Waypoint.70=!H, POI1, , TT:Patagonia.Mission.289, U, S51° 40' 52.05",W72° 38' 50.53",+000000.00, 
+Waypoint.71=!H, POI2, , TT:Patagonia.Mission.290, U, S51° 34' 25.92",W72° 49' 28.70",+000000.00, 
+Waypoint.72=!H, POI3, , TT:Patagonia.Mission.291, U, S51° 30' 38.40",W72° 59' 57.50",+000000.00, 
+Waypoint.73=!H, POI4, , TT:Patagonia.Mission.293, U, S51° 38' 25.41",W73° 11' 20.05",+000000.00, 
+Waypoint.74=!H, POI5, , TT:Patagonia.Mission.295, U, S51° 35' 9.70",W73° 21' 52.23",+000000.00, 
+Waypoint.75=!H, POI6, , TT:Patagonia.Mission.296, U, S51° 29' 9.85",W73° 25' 53.69",+000000.00, 
+Waypoint.76=!H, POI7, , TT:Patagonia.Mission.297, U, S51° 24' 38.59",W73° 24' 50.19",+000000.00, 
+Waypoint.77=!H, POI8, , TT:Patagonia.Mission.298, U, S51° 23' 2.00",W73° 19' 0.38",+000000.00, 
+Waypoint.78=!H, POI9, , TT:Patagonia.Mission.299, U, S51° 18' 46.87",W73° 16' 27.12",+000000.00, 
+Waypoint.79=!H, POI10, , TT:Patagonia.Mission.300, U, S51° 15' 4.22",W73° 16' 53.08",+000000.00, 
+Waypoint.80=!H, POI11, , TT:Patagonia.Mission.301, U, S51° 6' 14.24",W73° 19' 1.62",+000000.00, 
+Waypoint.81=!H, POI12, , TT:Patagonia.Mission.302, U, S51° 3' 52.25",W73° 16' 1.08",+000000.00, 
+Waypoint.82=!H, POI13, , TT:Patagonia.Mission.303, U, S50° 58' 53.82",W73° 19' 31.03",+000000.00, 
+Waypoint.83=!H, POI14, , TT:Patagonia.Mission.304, U, S50° 56' 17.46",W73° 13' 42.22",+000000.00, 
+Waypoint.84=!H, POI15, , TT:Patagonia.Mission.305, U, S50° 51' 54.12",W73° 12' 9.44",+000000.00, 
+Waypoint.85=!H, POI16, , TT:Patagonia.Mission.306, U, S50° 52' 14.26",W73° 6' 23.12",+000000.00, 
+Waypoint.86=!H, POI17, , TT:Patagonia.Mission.307, U, S50° 47' 3.24",W73° 9' 13.16",+000000.00, 
+Waypoint.87=!H, POI18, , TT:Patagonia.Mission.310, U, S50° 41' 30.41",W72° 58' 41.42",+000000.00, 
+Waypoint.88=!H, POI19, , TT:Patagonia.Mission.311, U, S50° 35' 28.30",W72° 56' 1.57",+000000.00, 
+Waypoint.89=!H, POI20, , TT:Patagonia.Mission.312, U, S50° 33' 2.29",W72° 51' 1.70",+000000.00, 
+Waypoint.90=!H, POI21, , TT:Patagonia.Mission.314, U, S50° 27' 53.18",W72° 36' 48.91",+000000.00, 
+Waypoint.91=!H, POI22, , TT:Patagonia.Mission.315, U, S50° 24' 51.74",W72° 30' 45.54",+000000.00, 
+Waypoint.92=!H, POI23, , TT:Patagonia.Mission.316, U, S50° 21' 36.50",W72° 16' 9.68",+000000.00, 
+Waypoint.93=, SAWC, , TT:Patagonia.Mission.317, A, S50° 16' 51.22",W72° 3' 31.79",+000000.00, 
+Waypoint.94=!I, POI1, , TT:Patagonia.Mission.318, U, S50° 13' 53.02",W71° 58' 33.62",+000000.00, 
+Waypoint.95=!I, POI2, , TT:Patagonia.Mission.319, U, S50° 9' 26.37",W71° 59' 18.77",+000000.00, 
+Waypoint.96=!I, POI3, , TT:Patagonia.Mission.320, U, S49° 59' 23.80",W72° 5' 49.61",+000000.00, 
+Waypoint.97=!I, POI4, , TT:Patagonia.Mission.321, U, S49° 46' 47.36",W72° 4' 42.98",+000000.00, 
+Waypoint.98=!I, POI5, , TT:Patagonia.Mission.323, U, S49° 43' 7.45",W72° 25' 47.64",+000000.00, 
+Waypoint.99=!I, POI6, , TT:Patagonia.Mission.324, U, S49° 39' 36.26",W72° 31' 52.55",+000000.00, 
+Waypoint.100=!I, POI7, , TT:Patagonia.Mission.325, U, S49° 38' 31.44",W72° 42' 5.59",+000000.00, 
+Waypoint.101=!I, POI8, , TT:Patagonia.Mission.326, U, S49° 39' 18.65",W72° 53' 44.24",+000000.00, 
+Waypoint.102=!I, POI9, , TT:Patagonia.Mission.327, U, S49° 35' 33.42",W72° 55' 48.14",+000000.00, 
+Waypoint.103=!I, POI10, , TT:Patagonia.Mission.328, U, S49° 31' 3.27",W72° 59' 42.61",+000000.00, 
+Waypoint.104=!I, POI11, , TT:Patagonia.Mission.330, U, S49° 24' 31.66",W72° 51' 57.81",+000000.00, 
+Waypoint.105=, SCDV, , TT:Patagonia.Mission.331, A, S49° 24' 47.19",W72° 46' 27.48",+000000.00, 
+Waypoint.106=!J, POI1, , TT:Patagonia.Mission.332, U, S49° 20' 3.21",W72° 52' 49.53",+000000.00, 
+Waypoint.107=!J, POI2, , TT:Patagonia.Mission.333, U, S49° 13' 43.11",W72° 54' 47.44",+000000.00, 
+Waypoint.108=!J, POI3, , TT:Patagonia.Mission.335, U, S49° 4' 51.62",W72° 53' 17.54",+000000.00, 
+Waypoint.109=!J, POI4, , TT:Patagonia.Mission.336, U, S48° 59' 58.12",W72° 50' 15.23",+000000.00, 
+Waypoint.110=, SCIO, , TT:Patagonia.Mission.337, A, S48° 56' 0.00",W72° 48' 0.01",+000000.00, 
+Waypoint.111=!K, POI1, , TT:Patagonia.Mission.339, U, S48° 50' 10.71",W72° 42' 46.46",+000000.00, 
+Waypoint.112=!K, POI2, , TT:Patagonia.Mission.340, U, S48° 50' 41.00",W72° 35' 46.23",+000000.00, 
+Waypoint.113=!K, POI3, , TT:Patagonia.Mission.341, U, S48° 48' 15.14",W72° 30' 43.23",+000000.00, 
+Waypoint.114=!K, POI4, , TT:Patagonia.Mission.342, U, S48° 42' 19.16",W72° 31' 20.23",+000000.00, 
+Waypoint.115=!K, POI5, , TT:Patagonia.Mission.343, U, S48° 36' 53.11",W72° 31' 52.83",+000000.00, 
+Waypoint.116=!K, POI6, , TT:Patagonia.Mission.344, U, S48° 32' 28.59",W72° 32' 33.01",+000000.00, 
+Waypoint.117=, SCOH, , TT:Patagonia.Mission.345, A, S48° 32' 28.07",W72° 32' 25.76",+000000.00, 
+Waypoint.118=!L, POI1, , TT:Patagonia.Mission.347, U, S48° 20' 50.92",W72° 29' 46.84",+000000.00, 
+Waypoint.119=!L, POI2, , TT:Patagonia.Mission.348, U, S48° 16' 36.98",W72° 28' 21.26",+000000.00, 
+Waypoint.120=!L, POI3, , TT:Patagonia.Mission.349, U, S48° 15' 12.85",W72° 21' 4.97",+000000.00, 
+Waypoint.121=, SCEY, , TT:Patagonia.Mission.350, A, S48° 12' 4.36",W72° 19' 40.07",+000000.00, 
+Waypoint.122=!M, POI1, , TT:Patagonia.Mission.353, U, S48° 6' 16.23",W72° 29' 37.07",+000000.00, 
+Waypoint.123=!M, POI2, , TT:Patagonia.Mission.355, U, S47° 59' 13.38",W72° 32' 34.22",+000000.00, 
+Waypoint.124=!M, POI3, , TT:Patagonia.Mission.357, U, S47° 51' 44.89",W72° 31' 39.32",+000000.00, 
+Waypoint.125=!M, POI4, , TT:Patagonia.Mission.358, U, S47° 47' 47.17",W72° 31' 13.36",+000000.00, 
+Waypoint.126=!M, POI5, , TT:Patagonia.Mission.359, U, S47° 45' 18.28",W72° 29' 29.46",+000000.00, 
+Waypoint.127=!M, POI6, , TT:Patagonia.Mission.360, U, S47° 40' 47.41",W72° 31' 27.31",+000000.00, 
+Waypoint.128=!M, POI7, , TT:Patagonia.Mission.361, U, S47° 27' 50.05",W72° 33' 21.63",+000000.00, 
+Waypoint.129=, SCBR, , TT:Patagonia.Mission.363, A, S47° 23' 18.19",W72° 19' 34.96",+000000.00, 
+Waypoint.130=!N, POI1, , TT:Patagonia.Mission.364, U, S47° 20' 31.29",W72° 10' 39.18",+000000.00, 
+Waypoint.131=!N, POI2, , TT:Patagonia.Mission.365, U, S47° 15' 31.85",W72° 5' 23.96",+000000.00, 
+Waypoint.132=!N, POI3, , TT:Patagonia.Mission.366, U, S47° 10' 26.06",W72° 6' 49.60",+000000.00, 
+Waypoint.133=!N, POI4, , TT:Patagonia.Mission.368, U, S47° 13' 31.44",W72° 24' 25.47",+000000.00, 
+Waypoint.134=, SCHR, , TT:Patagonia.Mission.370, A, S47° 14' 37.07",W72° 35' 16.02",+000000.00, 
+
+NumberofWaypoints=135
+ClearanceFlags=82
+CtCur=CLEARANCE_NONE
+WaypointNext=1
+AltCleared=-1
+HdgAssigned=-1
+SquawkAssigned=4608
+LandingSequence=LANDING_NONE
+DepartureRequest=DEPARTURE_VFR_REQUEST_NONE
+ParkingRequest=PARKING_NAME_NONE
+ParkingTypeRequest=PARKING_TYPE_NONE
+PatternLeg=PATTERN_LEG_NONE
+ApproachIndex=-1
+ApproachTransitionIndex=-1
+ApproachRequestIndex=-1
+ApproachTransitionRequestIndex=-1
+RunwayIndex=-1
+RunwayRequestIndex=-1
+ParkingIndex=-1
+FlightFollowing=FLIGHT_FOLLOWING_NO
+AirspaceTransition=AIRSPACE_TRANSITION_NONE
+BVAirspaceTransition=BV_TYPE_NONE
+BVAirspaceTransitionReq=BV_TYPE_NONE
+TakeoffSequence=TAKEOFF_SEQUENCE_NONE
+LandingSequenceNumber=-1
+TaxiRouteCurrent=-1
+CruisingAltitude=10498
+RequestedCruisingAltitude=-1
+ExpectedAltitude=-1
+AircraftSignature=1,0
+
+[ATC_ActiveFlightPlan.0]
+title=TT:Patagonia.Mission.193
+description==TT:Patagonia.Mission.194
+type=VFR
+routetype=0
+cruising_altitude=10498
+departure_id=Z00T, S54°20'27.05",W67°50'42.76",+000000.00
+departure_position=
+destination_id=SCHR, S47° 14' 37.07",W72° 35' 16.02",+000000.00
+departure_name==TT:Patagonia.Mission.195
+destination_name==TT:Patagonia.Mission.196
+AcState=ACSTATE_REQUEST_TAXI_CLEARANCE_OUT_VFR_ATIS
+Waypoint.0=, Z00T, , TT:Patagonia.Mission.197, A, S54°20'27.05",W67°50'42.76",+000000.00, 
+Waypoint.1=!A, POI1, , TT:Patagonia.Mission.201, U, S54° 29' 57.32",W67° 45' 25.98",+000000.00, 
+Waypoint.2=!A, POI2, , TT:Patagonia.Mission.202, U, S54° 31' 49.78",W67° 38' 14.63",+000000.00, 
+Waypoint.3=!A, POI3, , TT:Patagonia.Mission.203, U, S54° 31' 37.54",W67° 17' 36.31",+000000.00, 
+Waypoint.4=, SAWL, , TT:Patagonia.Mission.204, A, S54° 29' 58.50",W67° 10' 20.21",+000000.00, 
+Waypoint.5=!B, POI1, , TT:Patagonia.Mission.205, U, S54° 33' 45.38",W67° 14' 57.69",+000000.00, 
+Waypoint.6=!B, POI2, , TT:Patagonia.Mission.207, U, S54° 36' 31.73",W67° 24' 29.94",+000000.00, 
+Waypoint.7=!B, POI3, , TT:Patagonia.Mission.208, U, S54° 37' 6.49",W67° 32' 29.55",+000000.00, 
+Waypoint.8=!B, POI4, , TT:Patagonia.Mission.210, U, S54° 38' 8.33",W67° 45' 19.58",+000000.00, 
+Waypoint.9=!B, POI5, , TT:Patagonia.Mission.212, U, S54° 45' 3.53",W67° 48' 38.11",+000000.00, 
+Waypoint.10=!B, POI6, , TT:Patagonia.Mission.213, U, S54° 43' 55.94",W67° 56' 18.46",+000000.00, 
+Waypoint.11=!B, POI7, , TT:Patagonia.Mission.214, U, S54° 43' 0.80",W68° 5' 1.85",+000000.00, 
+Waypoint.12=!B, POI8, , TT:Patagonia.Mission.215, U, S54° 45' 1.52",W68° 11' 57.68",+000000.00, 
+Waypoint.13=, SAWO, , TT:Patagonia.Mission.217, A, S54° 49' 22.20",W68° 18' 15.50",+000000.00, 
+Waypoint.14=!C, POI1, , TT:Patagonia.Mission.218, U, S54° 51' 55.24",W68° 28' 51.67",+000000.00, 
+Waypoint.15=!C, POI2, , TT:Patagonia.Mission.219, U, S54° 53' 46.74",W68° 39' 29.75",+000000.00, 
+Waypoint.16=, SCNY, , TT:Patagonia.Mission.220, A, S54° 49' 50.00",W68° 50' 7.01",+000000.00, 
+Waypoint.17=!D, POI1, , TT:Patagonia.Mission.222, U, S54° 43' 53.26",W68° 50' 27.45",+000000.00, 
+Waypoint.18=!D, POI2, , TT:Patagonia.Mission.223, U, S54° 44' 27.59",W68° 43' 7.75",+000000.00, 
+Waypoint.19=!D, POI3, , TT:Patagonia.Mission.224, U, S54° 39' 18.60",W68° 40' 53.25",+000000.00, 
+Waypoint.20=!D, POI4, , TT:Patagonia.Mission.225, U, S54° 34' 57.48",W68° 34' 49.63",+000000.00, 
+Waypoint.21=!D, POI5, , TT:Patagonia.Mission.226, U, S54° 30' 21.90",W68° 48' 41.73",+000000.00, 
+Waypoint.22=, SCAZ, , TT:Patagonia.Mission.227, A, S54° 28' 53.00",W68° 56' 25.00",+000000.00, 
+Waypoint.23=!E, POI1, , TT:Patagonia.Mission.228, U, S54° 26' 49.69",W69° 12' 51.32",+000000.00, 
+Waypoint.24=!E, POI2, , TT:Patagonia.Mission.229, U, S54° 20' 23.09",W69° 32' 49.05",+000000.00, 
+Waypoint.25=!E, POI3, , TT:Patagonia.Mission.230, U, S54° 19' 38.00",W69° 41' 45.16",+000000.00, 
+Waypoint.26=!E, POI4, , TT:Patagonia.Mission.231, U, S54° 17' 15.54",W69° 50' 47.03",+000000.00, 
+Waypoint.27=!E, POI5, , TT:Patagonia.Mission.233, U, S54° 15' 12.58",W70° 4' 16.20",+000000.00, 
+Waypoint.28=!E, POI6, , TT:Patagonia.Mission.234, U, S54° 14' 35.02",W70° 12' 57.31",+000000.00, 
+Waypoint.29=!E, POI7, , TT:Patagonia.Mission.236, U, S54° 8' 38.17",W70° 18' 32.39",+000000.00, 
+Waypoint.30=!E, POI8, , TT:Patagonia.Mission.238, U, S54° 1' 2.10",W70° 20' 11.11",+000000.00, 
+Waypoint.31=!E, POI9, , TT:Patagonia.Mission.239, U, S53° 52' 41.29",W70° 26' 39.88",+000000.00, 
+Waypoint.32=!E, POI10, , TT:Patagonia.Mission.240, U, S53° 47' 47.65",W70° 26' 59.25",+000000.00, 
+Waypoint.33=!E, POI11, , TT:Patagonia.Mission.241, U, S53° 40' 37.23",W70° 28' 49.33",+000000.00, 
+Waypoint.34=, SCDW, , TT:Patagonia.Mission.242, A, S53° 36' 32.06",W70° 28' 22.41",+000000.00, 
+Waypoint.35=!F, POI1, , TT:Patagonia.Mission.244, U, S53° 39' 45.87",W70° 36' 57.23",+000000.00, 
+Waypoint.36=!F, POI2, , TT:Patagonia.Mission.245, U, S53° 41' 29.56",W70° 42' 27.95",+000000.00, 
+Waypoint.37=!F, POI3, , TT:Patagonia.Mission.246, U, S53° 37' 59.36",W70° 54' 46.78",+000000.00, 
+Waypoint.38=!F, POI4, , TT:Patagonia.Mission.247, U, S53° 30' 51.94",W70° 57' 4.60",+000000.00, 
+Waypoint.39=!F, POI5, , TT:Patagonia.Mission.249, U, S53° 24' 9.96",W70° 59' 29.27",+000000.00, 
+Waypoint.40=!F, POI6, , TT:Patagonia.Mission.251, U, S53° 16' 20.27",W70° 56' 42.25",+000000.00, 
+Waypoint.41=!F, POI7, , TT:Patagonia.Mission.252, U, S53° 11' 23.60",W70° 55' 51.90",+000000.00, 
+Waypoint.42=!F, POI8, , TT:Patagonia.Mission.253, U, S53° 7' 29.12",W70° 52' 10.66",+000000.00, 
+Waypoint.43=!F, POI9, , TT:Patagonia.Mission.254, U, S53° 2' 48.61",W70° 51' 3.46",+000000.00, 
+Waypoint.44=!F, POI10, , TT:Patagonia.Mission.255, U, S52° 57' 24.65",W70° 49' 11.31",+000000.00, 
+Waypoint.45=, SCID, , TT:Patagonia.Mission.256, A, S52° 52' 50.00",W70° 45' 0.00",+000000.00, 
+Waypoint.46=!G, POI1, , TT:Patagonia.Mission.258, U, S52° 46' 55.07",W70° 44' 14.08",+000000.00, 
+Waypoint.47=!G, POI2, , TT:Patagonia.Mission.260, U, S52° 43' 49.54",W70° 53' 53.94",+000000.00, 
+Waypoint.48=!G, POI3, , TT:Patagonia.Mission.261, U, S52° 45' 1.91",W71° 0' 8.40",+000000.00, 
+Waypoint.49=!G, POI4, , TT:Patagonia.Mission.262, U, S52° 44' 5.69",W71° 7' 38.24",+000000.00, 
+Waypoint.50=!G, POI5, , TT:Patagonia.Mission.264, U, S52° 46' 40.02",W71° 16' 39.62",+000000.00, 
+Waypoint.51=!G, POI6, , TT:Patagonia.Mission.265, U, S52° 39' 3.15",W71° 27' 47.75",+000000.00, 
+Waypoint.52=!G, POI7, , TT:Patagonia.Mission.266, U, S52° 41' 16.08",W71° 38' 16.06",+000000.00, 
+Waypoint.53=!G, POI8, , TT:Patagonia.Mission.267, U, S52° 41' 56.02",W71° 45' 28.62",+000000.00, 
+Waypoint.54=!G, POI9, , TT:Patagonia.Mission.269, U, S52° 39' 31.45",W71° 58' 26.64",+000000.00, 
+Waypoint.55=!G, POI10, , TT:Patagonia.Mission.271, U, S52° 46' 2.11",W72° 21' 5.16",+000000.00, 
+Waypoint.56=!G, POI11, , TT:Patagonia.Mission.272, U, S52° 47' 22.11",W72° 27' 49.78",+000000.00,
+Waypoint.57=!G, POI12, , TT:Patagonia.Mission.273, U, S52° 45' 2.46",W72° 37' 39.94",+000000.00, 
+Waypoint.58=!G, POI13, , TT:Patagonia.Mission.274, U, S52° 40' 55.21",W72° 40' 34.57",+000000.00, 
+Waypoint.59=!G, POI14, , TT:Patagonia.Mission.275, U, S52° 36' 43.99",W72° 48' 56.37",+000000.00, 
+Waypoint.60=!G, POI15, , TT:Patagonia.Mission.277, U, S52° 29' 2.14",W72° 52' 22.61",+000000.00, 
+Waypoint.61=!G, POI16, , TT:Patagonia.Mission.278, U, S52° 26' 3.29",W72° 44' 6.77",+000000.00, 
+Waypoint.62=!G, POI17, , TT:Patagonia.Mission.279, U, S52° 23' 53.66",W72° 47' 18.02",+000000.00, 
+Waypoint.63=!G, POI18, , TT:Patagonia.Mission.280, U, S52° 17' 42.91",W72° 54' 20.39",+000000.00, 
+Waypoint.64=!G, POI19, , TT:Patagonia.Mission.282, U, S52° 6' 20.76",W72° 49' 2.91",+000000.00, 
+Waypoint.65=!G, POI20, , TT:Patagonia.Mission.284, U, S52° 2' 30.87",W72° 39' 51.97",+000000.00, 
+Waypoint.66=!G, POI21, , TT:Patagonia.Mission.285, U, S51° 54' 37.84",W72° 37' 29.67",+000000.00, 
+Waypoint.67=!G, POI22, , TT:Patagonia.Mission.286, U, S51° 54' 24.45",W72° 27' 12.16",+000000.00, 
+Waypoint.68=!G, POI23, , TT:Patagonia.Mission.287, U, S51° 44' 38.73",W72° 29' 25.17",+000000.00, 
+Waypoint.69=, SCNT, , TT:Patagonia.Mission.288, A, S51° 40' 14.20",W72° 31' 43.96",+000000.00, 
+Waypoint.70=!H, POI1, , TT:Patagonia.Mission.289, U, S51° 40' 52.05",W72° 38' 50.53",+000000.00, 
+Waypoint.71=!H, POI2, , TT:Patagonia.Mission.290, U, S51° 34' 25.92",W72° 49' 28.70",+000000.00, 
+Waypoint.72=!H, POI3, , TT:Patagonia.Mission.291, U, S51° 30' 38.40",W72° 59' 57.50",+000000.00, 
+Waypoint.73=!H, POI4, , TT:Patagonia.Mission.293, U, S51° 38' 25.41",W73° 11' 20.05",+000000.00, 
+Waypoint.74=!H, POI5, , TT:Patagonia.Mission.295, U, S51° 35' 9.70",W73° 21' 52.23",+000000.00, 
+Waypoint.75=!H, POI6, , TT:Patagonia.Mission.296, U, S51° 29' 9.85",W73° 25' 53.69",+000000.00, 
+Waypoint.76=!H, POI7, , TT:Patagonia.Mission.297, U, S51° 24' 38.59",W73° 24' 50.19",+000000.00, 
+Waypoint.77=!H, POI8, , TT:Patagonia.Mission.298, U, S51° 23' 2.00",W73° 19' 0.38",+000000.00, 
+Waypoint.78=!H, POI9, , TT:Patagonia.Mission.299, U, S51° 18' 46.87",W73° 16' 27.12",+000000.00, 
+Waypoint.79=!H, POI10, , TT:Patagonia.Mission.300, U, S51° 15' 4.22",W73° 16' 53.08",+000000.00, 
+Waypoint.80=!H, POI11, , TT:Patagonia.Mission.301, U, S51° 6' 14.24",W73° 19' 1.62",+000000.00, 
+Waypoint.81=!H, POI12, , TT:Patagonia.Mission.302, U, S51° 3' 52.25",W73° 16' 1.08",+000000.00, 
+Waypoint.82=!H, POI13, , TT:Patagonia.Mission.303, U, S50° 58' 53.82",W73° 19' 31.03",+000000.00, 
+Waypoint.83=!H, POI14, , TT:Patagonia.Mission.304, U, S50° 56' 17.46",W73° 13' 42.22",+000000.00, 
+Waypoint.84=!H, POI15, , TT:Patagonia.Mission.305, U, S50° 51' 54.12",W73° 12' 9.44",+000000.00, 
+Waypoint.85=!H, POI16, , TT:Patagonia.Mission.306, U, S50° 52' 14.26",W73° 6' 23.12",+000000.00, 
+Waypoint.86=!H, POI17, , TT:Patagonia.Mission.307, U, S50° 47' 3.24",W73° 9' 13.16",+000000.00, 
+Waypoint.87=!H, POI18, , TT:Patagonia.Mission.310, U, S50° 41' 30.41",W72° 58' 41.42",+000000.00, 
+Waypoint.88=!H, POI19, , TT:Patagonia.Mission.311, U, S50° 35' 28.30",W72° 56' 1.57",+000000.00, 
+Waypoint.89=!H, POI20, , TT:Patagonia.Mission.312, U, S50° 33' 2.29",W72° 51' 1.70",+000000.00, 
+Waypoint.90=!H, POI21, , TT:Patagonia.Mission.314, U, S50° 27' 53.18",W72° 36' 48.91",+000000.00, 
+Waypoint.91=!H, POI22, , TT:Patagonia.Mission.315, U, S50° 24' 51.74",W72° 30' 45.54",+000000.00, 
+Waypoint.92=!H, POI23, , TT:Patagonia.Mission.316, U, S50° 21' 36.50",W72° 16' 9.68",+000000.00, 
+Waypoint.93=, SAWC, , TT:Patagonia.Mission.317, A, S50° 16' 51.22",W72° 3' 31.79",+000000.00, 
+Waypoint.94=!I, POI1, , TT:Patagonia.Mission.318, U, S50° 13' 53.02",W71° 58' 33.62",+000000.00, 
+Waypoint.95=!I, POI2, , TT:Patagonia.Mission.319, U, S50° 9' 26.37",W71° 59' 18.77",+000000.00, 
+Waypoint.96=!I, POI3, , TT:Patagonia.Mission.320, U, S49° 59' 23.80",W72° 5' 49.61",+000000.00, 
+Waypoint.97=!I, POI4, , TT:Patagonia.Mission.321, U, S49° 46' 47.36",W72° 4' 42.98",+000000.00, 
+Waypoint.98=!I, POI5, , TT:Patagonia.Mission.323, U, S49° 43' 7.45",W72° 25' 47.64",+000000.00, 
+Waypoint.99=!I, POI6, , TT:Patagonia.Mission.324, U, S49° 39' 36.26",W72° 31' 52.55",+000000.00, 
+Waypoint.100=!I, POI7, , TT:Patagonia.Mission.325, U, S49° 38' 31.44",W72° 42' 5.59",+000000.00, 
+Waypoint.101=!I, POI8, , TT:Patagonia.Mission.326, U, S49° 39' 18.65",W72° 53' 44.24",+000000.00, 
+Waypoint.102=!I, POI9, , TT:Patagonia.Mission.327, U, S49° 35' 33.42",W72° 55' 48.14",+000000.00, 
+Waypoint.103=!I, POI10, , TT:Patagonia.Mission.328, U, S49° 31' 3.27",W72° 59' 42.61",+000000.00, 
+Waypoint.104=!I, POI11, , TT:Patagonia.Mission.330, U, S49° 24' 31.66",W72° 51' 57.81",+000000.00, 
+Waypoint.105=, SCDV, , TT:Patagonia.Mission.331, A, S49° 24' 47.19",W72° 46' 27.48",+000000.00, 
+Waypoint.106=!J, POI1, , TT:Patagonia.Mission.332, U, S49° 20' 3.21",W72° 52' 49.53",+000000.00, 
+Waypoint.107=!J, POI2, , TT:Patagonia.Mission.333, U, S49° 13' 43.11",W72° 54' 47.44",+000000.00, 
+Waypoint.108=!J, POI3, , TT:Patagonia.Mission.335, U, S49° 4' 51.62",W72° 53' 17.54",+000000.00, 
+Waypoint.109=!J, POI4, , TT:Patagonia.Mission.336, U, S48° 59' 58.12",W72° 50' 15.23",+000000.00, 
+Waypoint.110=, SCIO, , TT:Patagonia.Mission.337, A, S48° 56' 0.00",W72° 48' 0.01",+000000.00, 
+Waypoint.111=!K, POI1, , TT:Patagonia.Mission.339, U, S48° 50' 10.71",W72° 42' 46.46",+000000.00, 
+Waypoint.112=!K, POI2, , TT:Patagonia.Mission.340, U, S48° 50' 41.00",W72° 35' 46.23",+000000.00, 
+Waypoint.113=!K, POI3, , TT:Patagonia.Mission.341, U, S48° 48' 15.14",W72° 30' 43.23",+000000.00, 
+Waypoint.114=!K, POI4, , TT:Patagonia.Mission.342, U, S48° 42' 19.16",W72° 31' 20.23",+000000.00, 
+Waypoint.115=!K, POI5, , TT:Patagonia.Mission.343, U, S48° 36' 53.11",W72° 31' 52.83",+000000.00, 
+Waypoint.116=!K, POI6, , TT:Patagonia.Mission.344, U, S48° 32' 28.59",W72° 32' 33.01",+000000.00, 
+Waypoint.117=, SCOH, , TT:Patagonia.Mission.345, A, S48° 32' 28.07",W72° 32' 25.76",+000000.00, 
+Waypoint.118=!L, POI1, , TT:Patagonia.Mission.347, U, S48° 20' 50.92",W72° 29' 46.84",+000000.00, 
+Waypoint.119=!L, POI2, , TT:Patagonia.Mission.348, U, S48° 16' 36.98",W72° 28' 21.26",+000000.00, 
+Waypoint.120=!L, POI3, , TT:Patagonia.Mission.349, U, S48° 15' 12.85",W72° 21' 4.97",+000000.00, 
+Waypoint.121=, SCEY, , TT:Patagonia.Mission.350, A, S48° 12' 4.36",W72° 19' 40.07",+000000.00, 
+Waypoint.122=!M, POI1, , TT:Patagonia.Mission.353, U, S48° 6' 16.23",W72° 29' 37.07",+000000.00, 
+Waypoint.123=!M, POI2, , TT:Patagonia.Mission.355, U, S47° 59' 13.38",W72° 32' 34.22",+000000.00, 
+Waypoint.124=!M, POI3, , TT:Patagonia.Mission.357, U, S47° 51' 44.89",W72° 31' 39.32",+000000.00, 
+Waypoint.125=!M, POI4, , TT:Patagonia.Mission.358, U, S47° 47' 47.17",W72° 31' 13.36",+000000.00, 
+Waypoint.126=!M, POI5, , TT:Patagonia.Mission.359, U, S47° 45' 18.28",W72° 29' 29.46",+000000.00, 
+Waypoint.127=!M, POI6, , TT:Patagonia.Mission.360, U, S47° 40' 47.41",W72° 31' 27.31",+000000.00, 
+Waypoint.128=!M, POI7, , TT:Patagonia.Mission.361, U, S47° 27' 50.05",W72° 33' 21.63",+000000.00, 
+Waypoint.129=, SCBR, , TT:Patagonia.Mission.363, A, S47° 23' 18.19",W72° 19' 34.96",+000000.00, 
+Waypoint.130=!N, POI1, , TT:Patagonia.Mission.364, U, S47° 20' 31.29",W72° 10' 39.18",+000000.00, 
+Waypoint.131=!N, POI2, , TT:Patagonia.Mission.365, U, S47° 15' 31.85",W72° 5' 23.96",+000000.00, 
+Waypoint.132=!N, POI3, , TT:Patagonia.Mission.366, U, S47° 10' 26.06",W72° 6' 49.60",+000000.00, 
+Waypoint.133=!N, POI4, , TT:Patagonia.Mission.368, U, S47° 13' 31.44",W72° 24' 25.47",+000000.00, 
+Waypoint.134=, SCHR, , TT:Patagonia.Mission.370, A, S47° 14' 37.07",W72° 35' 16.02",+000000.00, 
+[ATC_AircraftManager]
+NumberofAircraft=1
+
+[ATC_MessageSystem]
+FrequencyNodes=0
+
+[GPS_Engine]
+Filename=Chile
+position=S54°20'27.05",W67°50'42.76", +00000.00
+Time=-1
+TimeWP=37685
+ArriveTime=37008
+CountWP=135
+NextWP=1
+PlaneStarted=False
+WpInfo0=100, 0, 16, 0, 0, 30.6, 0.0, 0.0
+WpInfo1=100, 0, 2091, 0, 0, 0.0, 3.0, 0.0
+WpInfo2=100, 0, 3199, 0, 0, 0.0, 2.2, 0.0
+WpInfo3=100, 0, 3199, 0, 0, 0.0, 2.7, 0.0
+WpInfo4=100, 0, 3199, 0, 0, 0.0, 2.1, 0.0
+WpInfo5=100, 0, 3199, 0, 0, 0.0, 1.6, 0.0
+WpInfo6=100, 0, 3199, 0, 0, 0.0, 1.9, 0.0
+WpInfo7=100, 0, 3199, 0, 0, 0.0, 6.6, 0.0
+WpInfo8=100, 0, 3199, 0, 0, 0.0, 1.9, 0.0
+WpInfo9=100, 0, 3199, 0, 0, 0.0, 1.8, 0.0
+WpInfo10=100, 0, 3199, 0, 0, 0.0, 2.4, 0.0
+WpInfo11=100, 0, 3199, 0, 0, 0.0, 1.9, 0.0
+WpInfo12=100, 0, 3199, 0, 0, 0.0, 7.4, 0.0
+WpInfo13=100, 0, 3199, 0, 0, 0.0, 0.7, 0.0
+WpInfo14=100, 0, 3199, 0, 0, 0.0, 4.1, 0.0
+WpInfo15=100, 0, 3199, 0, 0, 0.0, 3.1, 0.0
+WpInfo16=100, 0, 3199, 0, 0, 0.0, 3.4, 0.0
+WpInfo17=100, 0, 3199, 0, 0, 0.0, 7.5, 0.0
+WpInfo18=100, 0, 3199, 0, 0, 0.0, 0.1, 0.0
+WpInfo19=100, 0, 3199, 0, 0, 0.0, 2.6, 0.0
+WpInfo20=100, 0, 3199, 0, 0, 0.0, 6.4, 0.0
+WpInfo21=100, 0, 3199, 0, 0, 0.0, 4.7, 0.0
+WpInfo22=100, 0, 3199, 0, 0, 0.0, 3.5, 0.0
+WpInfo23=100, 0, 3199, 0, 0, 0.0, 2.3, 0.0
+WpInfo24=100, 0, 3199, 0, 0, 0.0, 2.3, 0.0
+WpInfo25=100, 0, 3199, 0, 0, 0.0, 3.4, 0.0
+WpInfo26=100, 0, 3199, 0, 0, 0.0, 3.7, 0.0
+WpInfo27=100, 0, 3199, 0, 0, 0.0, 2.0, 0.0
+
+CountFP=0
+
+[DateTimeSeason]
+Season=Winter
+Year=2019
+Day=11
+Hours=10
+Minutes=28
+Seconds=5
+UseZuluTime=False
+
+[Panel.1]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=0
+ViewsOn=1
+
+[Panel.2]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=50
+ViewsOn=0
+
+[Panel.3]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=225
+ViewsOn=0
+
+[Panel.4]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=1
+ViewsOn=0
+
+[Panel.5]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=2
+ViewsOn=0
+
+[Panel.6]
+ScreenUniCoords=0, 0, 0, 0
+UndocCoords=0, 0, 0, 0
+Visible=False
+Undocked=False
+HiddenOn=False
+ID=20000
+ViewsOn=1
+
+[SimVars.0]
+Latitude=S54°20'27.05"
+Longitude=W67°50'42.76"
+Altitude=+000065.00
+Pitch=0
+Bank=0
+Heading=114.4
+PVelBodyAxis=0
+BVelBodyAxis=0
+HVelBodyAxis=0
+XVelBodyAxis=0
+YVelBodyAxis=0
+ZVelBodyAxis=0
+SimOnGround=True
+OnPlatformHeight=-9999999999
+
+
+
+[Slew.0]
+Active=False
+
+[Freeze.0]
+Location=False
+Altitude=False
+Attitude=False
+
+[Fuel.0]
+TankSelector=All
+TankSelector1=All
+Center=100
+LeftMain=90
+RightMain=90
+LeftAux=100
+RightAux=100
+LeftTip=100
+RightTip=100
+Center 2=100
+Center 3=100
+External 1=100
+External 2=100
+
+[Payload.0]
+PayloadList=  175.0,  175.0,   0.0
+
+[sim_debug]
+SimDebugWindows=0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+[SimScheduler]
+SimSpeed=001.00
+SimTime=596.82995962224549658
